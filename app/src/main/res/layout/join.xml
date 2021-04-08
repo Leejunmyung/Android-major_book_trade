@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="#ff20b2aa"
+        android:gravity="center_horizontal"
+        android:text="회원가입"
+        android:textAlignment="center"
+        android:textColor="#ffffffff"
+        android:textSize="40sp" />
+
+
+    <EditText
+        android:id="@+id/jId"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:hint="가입할 아이디를 입력하세요"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/jPw"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:hint="패스워드를 입력하세요"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/jName"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:hint="이름을 입력하세요"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/jPhone"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:hint="휴대전화 번호를 입력하세요"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/jEmail"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:hint="이메일을 입력하세요"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnJoin2"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:background="#ff778899"
+            android:text="가입하기"
+            android:textColor="#ffffff"
+            android:textSize="30sp" />
+        <Button
+            android:id="@+id/btnMain"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:background="#ff778899"
+            android:text="메인화면"
+            android:textColor="#ffffff"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
+

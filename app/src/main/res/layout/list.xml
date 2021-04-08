@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="right">
+        <ImageView
+            android:layout_width="47sp"
+            android:layout_height="40sp"
+            android:src="@drawable/my_logo"
+            />
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Book Recycle(0)"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/listbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="메인화면" />
+
+        <Button
+            android:onClick="onClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="등록하기" />
+
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="660dp" />
+
+
+</LinearLayout>
